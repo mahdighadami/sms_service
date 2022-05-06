@@ -8,6 +8,9 @@ function readphones($filename){
 
 function send_sms($number, $text){
     //TODO: sen sms
+    $data = array();
+    $url = 'https://example.come/...';
+    $api_key = '2424for424example3434';
 }
 
 $phones = readphones("phones.txt");
@@ -18,3 +21,4 @@ foreach($phones as $phone){
     send_sms($phone, $text);
     echo $phone;?> <br> <?php ;
 }
+
